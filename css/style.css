@@ -1,15 +1,86 @@
-h1 {
-  font-size: 150px;
-  margin-top: 100px;
+body {
+/*  background-image: url(http://www.celebritybeliefs.com/wp-content/uploads/2016/08/mark-cuban-hobbies-political-views-religion.jpg);
+  background-size: cover;*/
+  font-size: 16px;
   text-align: center;
 }
 
-#steve a {
-  color: orange;
+.container {
+  width: 96%;
+  margin: 0 auto;
 }
 
-.professor a {
-  text-transform: uppercase;
-  color: green;
+.belt {
+  width: 80%;
+  margin: 0 auto;
 }
 
+@media (min-width: 768px){
+  .container {
+    width: 700px;
+  }
+  .belt {
+  width: 50%;
+  margin: 0 auto;
+}
+
+}
+
+
+.buttons {
+  margin-top: 5em;
+}
+
+button {
+  font-size: 2em;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 10em;
+}
+
+.cuban {
+  text-align: center;
+  margin-top: 50vh;
+  font-size: 10em;
+}
+
+.hero {
+  width: 100%;
+  padding: 3em 0;
+  float: left;
+  height: 100%;
+}
+
+.third {
+  width: 100%;
+  float: left;
+}
+
+h2 {
+  font-size: 5em;
+  -webkit-margin-after: 0em;
+
+}
+
+.third p {
+  font-size: 2em;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .third {
+    width: 31%;
+    margin-right: 2%;
+    float: left;
+  }
+}
+
+@media (min-width: 1180px) {
+  .third {
+    width: 31%;
+    margin-right: 2%;
+    float: left;
+  }
+}
